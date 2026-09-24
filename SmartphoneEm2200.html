@@ -1,0 +1,608 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Museu do Futuro - Smartphone</title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        html{
+            scroll-behavior: smooth;
+        }
+
+        body{
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #F5BABB;
+            color: rgb(5, 5, 5);
+        }
+
+        header{
+            background-color: #95CCDD;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        header p {
+            color: #ffffff;
+        }
+
+        nav{
+            background-color: #FFF5F2;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a{
+            color: #F5BABB;
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        nav a:hover{
+            color: #F5BABB;
+        }
+
+        main{
+            max-width: 1000px;
+            margin: auto;
+            padding: 30px 20px;
+        }
+
+        section{
+            background-color: white;
+            margin-bottom: 25px;
+            padding: 25px;
+            border-radius: 10px;
+        }
+
+        h2{
+            border-bottom: 2px solid #ffffff;
+        }
+
+        .destaque{
+            display: flex;
+            gap: 30px;
+            align-items: center;
+        }
+
+        .destaque img{
+            width: 40%;
+            border-radius: 10px;
+        }
+
+        .codigo{
+            color: #000000;
+            font-size: 14px;
+        }
+
+        .etiqueta{
+            display: inline-block;
+            background-color: #F5BABB;
+            padding: 8px 12px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+        .hipoteses{
+            display: flex;
+            gap: 15px;
+        }
+
+        article{
+            flex: 1;
+            background-color: #95CCDD;
+            padding: 18px;
+            border-radius: 8px;
+        }
+
+        aside{
+            background-color: #D0E7E6;
+            color: #95CCDD;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 25px;
+        }
+
+        blockquote{
+            border-left:  4px solid #ffffff;
+            margin-left: 0;
+            padding: 20px;
+            font-style: italic;
+        }
+
+        table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,td{
+            border: 1px solid #719ba7;
+            text-align: left;
+        }
+
+        th{
+            background-color: #95CCDD;
+            color: white;
+            text-align: center;
+        }
+
+        .alert{
+            background-color: #F3E4C9;
+            border-left: 6px solid #A77F60;
+        }
+
+        footer{
+            background-color: #95CCDD;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            font-size: 16px;
+        }
+
+        @media (max-width: 700px){
+            .destaque, .hipoteses{
+                flex-direction: column;
+            }
+            .destaque img{
+                width: 100px;
+            }
+            nav a{
+                display: block;
+            }
+
+            table{
+                font-size: 13px;
+            }
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+      <p>MUSEU DE ARQUEOLOGIA DIGITAL</p>
+
+      <h1>Arquivo Histórico — 2200</h1>
+
+      <p>Reconstruindo os misteriosos costumes da humanidade do século XXI.</p>
+    </header>
+
+    <nav>
+      <a href="#artefato">Artefato</a>
+      <a href="#descoberta">Descoberta</a>
+      <a href="#hipoteses">Hipóteses</a>
+      <a href="#evidencias">Evidências</a>
+      <a href="#arqueologo">Arqueólogo</a>
+    </nav>
+
+    <main>
+      <section id="artefato" class="destaque">
+        <img
+          src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=500"
+          alt="Smartphone"
+        />
+
+        <article>
+          <p class="codigo">ARTEFATO #SP-2026-099</p>
+
+          <h2>Smartphone</h2>
+
+          <p class="etiqueta">Importância cultural: 10/10</p>
+
+          <p>
+            Artefato tecnológico portátil utilizado pela civilização global do início
+            do século XXI.
+          </p>
+
+          <p>
+            Registros digitais sugerem que sua posse era vital para a própria
+            sobrevivência social e psicológica do indivíduo.
+          </p>
+
+          <p>Alguns habitantes da época chegaram a declarar:</p>
+
+          <blockquote>"Não vivo sem o meu celular."</blockquote>
+        </article>
+      </section>
+
+      <section id="descoberta">
+        <h2>Local da descoberta</h2>
+
+        <p>
+          O artefato foi encontrado em 12 de maio de 2195 durante uma escavação
+          nas ruínas de uma antiga via urbana de transporte.
+        </p>
+
+        <p>
+          <strong>Local histórico:</strong>
+          Sorocaba, antiga região denominada São Paulo, Brasil.
+        </p>
+
+        <p>
+          O aparelho estava firmemente preso às mãos esqueléticas de um cidadão
+          que caminhava olhando para baixo, prática que os registros chamavam de 
+          <strong>"olhar para a tela"</strong>.
+        </p>
+
+        <h3>Objetos encontrados próximos</h3>
+
+        <ul>
+          <li>Um cabo de alimentação emaranhado</li>
+          <li>Fragmentos de uma película de vidro trincada</li>
+          <li>Um fone de ouvido sem fio perdido</li>
+          <li>Uma capa protetora com adesivos coloridos</li>
+          <li>Resíduos de uma bateria quimicamente esgotada</li>
+          <li>Um cartão de memória corrompido</li>
+        </ul>
+
+        <blockquote>"1% de bateria, socorro!"</blockquote>
+
+        <p>
+          Até hoje os arqueólogos tentam decifrar a intensidade de pânico
+          gerada por este aviso visual específico.
+        </p>
+      </section>
+
+      <section>
+        <h2>Descrição física</h2>
+
+        <p>
+          O objeto apresenta formato retangular plano, composto predominantemente
+          por vidro e ligas metálicas leves.
+        </p>
+
+        <p>
+          <strong>Altura:</strong> aproximadamente 15 cm<br />
+          <strong>Peso:</strong> aproximadamente 180 g<br />
+          <strong>Material:</strong> vidro, silício e alumínio<br />
+          <strong>Fonte energética:</strong> bateria interna de íon de lítio
+        </p>
+
+        <p>
+          Durante algum tempo acreditou-se que a tela luminosa era um amuleto
+          religioso que emitia luz própria para afastar maus espíritos.
+        </p>
+
+        <p>
+          Essa teoria foi substituída quando descobriram que a luz servia para
+          exibir imagens infinitas de gatos e vídeos curtos.
+        </p>
+      </section>
+
+      <section>
+        <h2>Função provável</h2>
+
+        <p>
+          Simulações indicam que o Smartphone centralizava a comunicação, o
+          trabalho, o entretenimento e a memória da sociedade.
+        </p>
+
+        <p>
+          Entretanto, a quantidade de horas diárias de uso sugere que sua
+          função ia muito além de uma simples ferramenta de bolso.
+        </p>
+
+        <p>
+          <blockquote>"Deixa eu ver uma notificação rapidinho."</blockquote>
+        </p>
+
+        <p>
+          A expressão "rapidinho" gerou intensos debates sobre a percepção distorcida
+          do tempo que os humanos do século XXI possuíam.
+        </p>
+      </section>
+
+      <section id="hipoteses">
+        <h2>Principais hipóteses arqueológicas</h2>
+
+        <div class="hipoteses">
+          <article>
+            <h3>Hipótese A</h3>
+
+            <p>
+              <strong>Ferramenta de trabalho</strong>
+            </p>
+
+            <p>
+              A teoria mais lógica afirma que o aparelho era estritamente
+              utilizado para responder mensagens profissionais corporativas.
+            </p>
+          </article>
+
+          <article>
+            <h3>Hipótese B</h3>
+
+            <p>
+              <strong>Portal de entretenimento</strong>
+            </p>
+
+            <p>
+              Alguns pesquisadores acreditam que servia apenas como um centro
+              infinito de consumo de vídeos e jogos digitais.
+            </p>
+          </article>
+
+          <article>
+            <h3>Hipótese C</h3>
+
+            <p>
+              <strong>Órgão sensorial externo</strong>
+            </p>
+
+            <p>
+              Esta teoria ousada afirma que o artefato funcionava como uma extensão
+              biológica e mental do cérebro humano.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <h2>Reconstrução do ritual diário</h2>
+
+        <ol>
+          <li>Acordar e tatear o colchão à procura do objeto.</li>
+
+          <li>
+            Desbloquear a tela antes mesmo de abrir os olhos completamente.
+          </li>
+
+          <li>
+            Verificar mensagens acumuladas durante o período de 
+            <strong>sono</strong>.
+          </li>
+
+          <li>Ignorar o café da manhã.</li>
+
+          <li>Caminhar tropeçando nas calçadas enquanto digita.</li>
+
+          <li>
+            Declarar:
+            <strong>"Já tô respondendo."</strong>
+          </li>
+
+          <li>Conectar o aparelho ao carregador antes de dormir.</li>
+        </ol>
+
+        <p>
+          O hábito de carregar o dispositivo ao lado do travesseiro é amplamente
+          documentado em relatórios históricos.
+        </p>
+      </section>
+
+      <section id="evidencias">
+        <h2>Evidências linguísticas</h2>
+
+        <p>
+          A interpretação da linguagem digital brasileira do século XXI revelou
+          expressões altamente peculiares.
+        </p>
+
+        <table>
+          <tr>
+            <th>Expressão encontrada</th>
+            <th>Interpretação em 2200</th>
+          </tr>
+
+          <tr>
+            <td>Me manda no WhatsApp</td>
+            <td>Protocolo oficial de transferência de dados</td>
+          </tr>
+
+          <tr>
+            <td>Deixei no modo avião</td>
+            <td>Estratégia temporária de isolamento social</td>
+          </tr>
+
+          <tr>
+            <td>Visto por último às...</td>
+            <td>Ferramenta de espionagem doméstica aceita</td>
+          </tr>
+
+          <tr>
+            <td>Bateria viciada</td>
+            <td>Crença mística sobre o cansaço do componente</td>
+          </tr>
+
+          <tr>
+            <td>Atualizar o sistema</td>
+            <td>Ritual obrigatório de paciência e espera</td>
+          </tr>
+
+          <tr>
+            <td>Sem sinal</td>
+            <td>Causa imediata de pânico coletivo extremo</td>
+          </tr>
+        </table>
+      </section>
+
+      <section>
+        <h2>Fragmentos digitais recuperados</h2>
+
+        <p>
+          Milhares de imagens fotográficas foram recuperadas das memórias nuvem
+          da antiga rede <strong>Instagram</strong>.
+        </p>
+
+        <p>Muitas exibiam padrões idênticos:</p>
+
+        <blockquote>
+          "O prato de comida antes de ser consumido."
+        </blockquote>
+
+        <p>
+          Curiosamente, os registros mostram que os cidadãos priorizavam fotografar
+          o alimento em vez de comê-lo aquecido.
+        </p>
+
+        <p>
+          Isso levou cientistas a crerem que a aprovação alheia virtual era
+          mais importante do que a nutrição física.
+        </p>
+      </section>
+
+      <aside id="arqueologo">
+        <h2>Comentário do arqueólogo</h2>
+
+        <h3>Dr. Elias Ventura</h3>
+
+        <p>Instituto de Arqueologia Doméstica — 2200</p>
+
+        <blockquote>
+          Durante muito tempo acreditamos que os humanos do século XXI controlavam
+          suas ferramentas tecnológicas.
+        </blockquote>
+
+        <blockquote>
+          Entretanto, ao analisarmos as estatísticas de uso diário, percebemos
+          que o inverso era muito mais provável.
+        </blockquote>
+
+        <blockquote>
+          É fascinante como um objeto de 180 gramas conseguia ditar o humor,
+          o foco e a rotina de bilhões de pessoas simultaneamente.
+        </blockquote>
+
+        <p>
+          Atualmente trabalhamos com a hipótese de que o Smartphone era o verdadeiro
+          governante silencioso daquela civilização.
+        </p>
+      </aside>
+
+      <section>
+        <h2>Teorias rejeitadas</h2>
+
+<h3>Peso de papel</h3>
+
+<p>
+  Durante algum tempo, acadêmicos conservadores argumentaram que o aparelho
+  pesado servia apenas para segurar folhas de papel em dias de vento.
+</p>
+
+<p>
+  A hipótese foi descartada após o custo de fabricação do objeto ser estimado
+  em valores exorbitantes.
+</p>
+
+<h3>Espelho de bolso</h3>
+
+<p>
+  Outro grupo defendeu que a tela escura servia exclusivamente para as pessoas
+  verem o próprio reflexo enquanto arrumavam o cabelo.
+</p>
+
+<p>
+  A teoria perdeu força quando descobriram que a tela ligada consumia energia
+  e exigia desbloqueio por senha facial.
+</p>
+      </section>
+
+      <section>
+        <h2>Objeto associado: Fone de Ouvido Bluetooth</h2>
+
+        <p>
+          Próximo aos smartphones, encontravam-se frequentemente pequenos estojos
+          plásticos contendo dois mini-dispositivos auriculares.
+        </p>
+
+        <p>
+          Posteriormente foram identificados como
+          <strong>fones sem fio</strong>.
+        </p>
+
+        <p>
+          Pesquisadores apontam que eles serviam para isolar o indivíduo do mundo
+          exterior, fingindo não ouvir chamadas de parentes próximos.
+        </p>
+
+        <p>
+          Fabricantes do século XXII tentam até hoje patentear essa genialidade
+          de isolamento social voluntário.
+        </p>
+      </section>
+
+      <section>
+        <h2>Perguntas ainda sem resposta</h2>
+
+        <ul>
+          <li>Por que as pessoas aceitavam os "Termos de Uso" sem ler?</li>
+
+          <li>Onde foram parar os milhões de cabos carregadores perdidos?</li>
+
+          <li>Por que a tela sempre quebrava exatamente no canto superior?</li>
+
+          <li>O que significava o aviso "Atualização concluída com sucesso"?</li>
+
+          <li>Por que as senhas precisavam ter letras maiúsculas e símbolos?</li>
+
+          <li>
+            Como a humanidade conseguia encontrar endereços sem o aplicativo de mapas?
+          </li>
+        </ul>
+      </section>
+
+      <section class="alerta">
+        <h2>⚠ Nota de segurança do museu</h2>
+
+        <p>
+          Visitantes não devem tentar recarregar artefatos antigos com correntes
+          elétricas diretas do ano 2200.
+        </p>
+
+        <p>
+          O incidente envolvendo o estagiário Kael e um modelo antigo de celular
+          ainda está sob investigação interna.
+        </p>
+      </section>
+
+      <section>
+        <h2>Classificação final</h2>
+
+        <p>
+          <strong>Nome conhecido:</strong>
+          Smartphone
+        </p>
+
+        <p>
+          <strong>Nome arqueológico:</strong>
+          Terminal Portátil de Conectividade Neural e Social
+        </p>
+
+        <p>
+          <strong>Civilização:</strong>
+          Sociedade Digital Pré-Singularidade
+        </p>
+
+        <p>
+          <strong>Período:</strong>
+          aproximadamente 2010–2040
+        </p>
+
+        <p>
+          <strong>Uso confirmado:</strong>
+          comunicação, distração e dependência diária
+        </p>
+
+        <p>
+          <strong>Uso simbólico:</strong>
+          absoluto
+        </p>
+
+        <p>
+          <strong>Nível atual de compreensão:</strong>
+          89%
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Museu de Arqueologia Digital — Ano 2200</p>
+
+      <p>Departamento de Estudos da Estranha Civilização do Século XXI</p>
+    </footer>
+  </body>
+</html>
